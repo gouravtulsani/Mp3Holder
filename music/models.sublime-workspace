@@ -1,0 +1,266 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"s",
+				"sidebar"
+			],
+			[
+				"li",
+				"link	Tag"
+			],
+			[
+				"st",
+				"style	Tag"
+			],
+			[
+				"ma",
+				"margin-bottom"
+			],
+			[
+				"ali",
+				"vertical-align"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "forms.py",
+			"settings":
+			{
+				"buffer_size": 545,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/grv/programs/django/Viberr-master/music/models.py",
+		"/home/grv/programs/django/Mp3Holder/music/templates/music/index.html",
+		"/home/grv/programs/django/Mp3Holder/music/templates/music/base_visitor.html",
+		"/home/grv/programs/django/Mp3Holder/music/templates/music/create_album.html",
+		"/home/grv/programs/django/Mp3Holder/music/templates/music/base.html",
+		"/home/grv/programs/django/Mp3Holder/music/templates/music/songs.html",
+		"/home/grv/programs/django/Mp3Holder/music/templates/music/register.html",
+		"/home/grv/programs/django/Mp3Holder/music/static/music/style.css",
+		"/home/grv/programs/django/Mp3Holder/music/templates/music/login.html",
+		"/home/grv/programs/django/Mp3Holder/website/__init__.py",
+		"/home/grv/programs/django/Viberr-master/README.md",
+		"/home/grv/programs/django/Viberr-master/music/templates/music/base.html",
+		"/home/grv/programs/django/mysite/webapp/views.py",
+		"/home/grv/programs/django/mysite/mysite/settings.py",
+		"/home/grv/programs/django/mysite/webapp/apps.py",
+		"/home/grv/programs/django/mysite/mysite/urls.py",
+		"/home/grv/programs/django/mysite/mysite/wsgi.py",
+		"/home/grv/programs/django/mysite/mysite/__init__.py",
+		"/home/grv/programs/test/toggle.cpp",
+		"/home/grv/programs/test/toggle.py",
+		"/home/grv/programs/test/styles.css",
+		"/home/grv/programs/test/user.html",
+		"/home/grv/programs/test/slider.js",
+		"/home/grv/programs/test/styles.html",
+		"/home/grv/programs/test/a.html",
+		"/home/grv/temp/gourav.html",
+		"/home/grv/programs/python/gourav tulsnai",
+		"/home/grv/programs/python/file1.py",
+		"/home/grv/programs/python/class.py",
+		"/var/www/html/gallery.html",
+		"/var/www/html/index.html",
+		"/var/www/html/css/bootstrap.min.css",
+		"/var/www/html/portfoliocp/index.html"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Album",
+			"viberr",
+			"viber",
+			"media",
+			"col-6",
+			"col-3",
+			"aside",
+			"backgroung",
+			">\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"background"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "forms.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 545,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "models.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 233.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
