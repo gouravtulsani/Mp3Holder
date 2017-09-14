@@ -1,3 +1,8 @@
+from django.contrib.auth.models import User, Group
+from rest_framework import viewsets
+from .serializers import UserSerializer, GroupSerializer
+
+
 from django.contrib.auth import authenticate, login
 from django.contrib.auth import logout
 from django.http import JsonResponse
@@ -127,7 +132,7 @@ def index(request):
         return render(request, 'music/login.html')
     else:
         albums = Album.objects.filter(user=request.user)
-        song_results = Song.objects.all()
+        song_results = Song.objects.filter(user=request.user)
         query = request.GET.get("q")
         if query:
             albums = albums.filter(
@@ -167,7 +172,7 @@ def login_user(request):
             else:
                 return render(request, 'music/login.html', {'error_message': 'Your account has been disabled'})
         else:
-            return render(request, 'music/login.html', {'error_message': 'Invalid login'})
+            return render(request, 'music/login.html', {'error_message': 'Invalid Credentials!'})
     return render(request, 'music/login.html')
 
 
@@ -209,3 +214,23 @@ def songs(request, filter_by):
             'song_list': users_songs,
             'filter_by': filter_by,
         })
+
+
+
+
+##### user api
+
+class UserViewSet(viewsets.ModelViewSet):
+    """
+    API endpoint that allows users to be viewed or edited.
+    """
+    queryset = User.objects.all().order_by('-date_joined')
+    serializer_class = UserSerializer
+
+
+class GroupViewSet(viewsets.ModelViewSet):
+    """
+    API endpoint that allows groups to be viewed or edited.
+    """
+    queryset = Group.objects.all()
+    serializer_class = GroupSerializer

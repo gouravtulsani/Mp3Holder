@@ -15,6 +15,7 @@ class Album(models.Model):
 
 
 class Song(models.Model):
+    user = models.ForeignKey(User, default=1)
     album = models.ForeignKey(Album, on_delete=models.CASCADE)
     song_title = models.CharField(max_length=250)
     audio_file = models.FileField(default='')

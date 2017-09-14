@@ -7,7 +7,7 @@
     <!-- Albums -->
     <div class="row">
         <div class="col-sm-12">
-            <h3>{{ user.username }}'s Playlists</h3>
+            <h3>{{ user.username }}'s Albums</h3><br><br>
         </div>
         {% if albums %}
             {% for album in albums %}
@@ -47,7 +47,7 @@
                 <br>
                 <a href="{% url 'music:create_album' %}">
                     <button type="button" class="btn btn-success">
-                        <span class="glyphicon glyphicon-plus"></span>&nbsp; Add an Playlist
+                        <span class="glyphicon glyphicon-plus"></span>&nbsp; Add an Album
                     </button>
                 </a>
             </div>
@@ -69,7 +69,7 @@
                                     <th>Song Title</th>
                                     <th>Artist</th>
                                     <th>Audio File</th>
-                                    <th>Playlist</th>
+                                    <th>Album</th>
                                     <th>Favorite</th>
                                 </tr>
                             </thead>
